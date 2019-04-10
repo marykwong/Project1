@@ -23,6 +23,5 @@ Each person is responsible for their own box in the layout.
 
 Collaborate for the background/color/button style.
 
-Sketch of Final Product:
 
 
