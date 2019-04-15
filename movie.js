@@ -30,6 +30,8 @@ document.querySelector("#movieSearch").addEventListener("click", function(event)
       var Title = response.Search[i].Title;
       var posterSrc = response.Search[i].Poster;
       var mYear = response.Search[i].Year;
+      $("#added-movie > tbody").append("<tr><td class=eachMovie>" + "<img src=" + posterSrc + " width=100px height=150px>" + "</img>" + "</td><td>" + Title + "</td><td>" +
+      mYear + "</td></tr>");
 
       
       // console.log(response)
@@ -44,8 +46,6 @@ document.querySelector("#movieSearch").addEventListener("click", function(event)
         var description = JSON.parse(newResponse).results[0].longDescription
         // console.log(newResults);
         // console.log(newResponse);
-        $("#added-movie > tbody").append("<tr><td class=eachMovie>" + "<img src=" + posterSrc + " width=100px height=150px>" + "</img>" + "</td><td>" + Title + "</td><td>" +
-        mYear + "</td></tr>");
         $("#added-movie > tbody").append("<tr><td>"+ "<video src=" + newResults + " width=320 height=200 controls preload></video>"+ "</td><td>"+ description+"</td></tr>");
         console.log(Title)
 
