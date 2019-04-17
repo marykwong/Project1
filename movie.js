@@ -1,3 +1,10 @@
+//function to make the button shake using animate library
+$(function(){
+  $('button').on('click', function (){
+      $('button').addClass('animated shake');
+  });
+ }); 
+
 function loadAjax(Title, posterSrc, mYear) {
   $.ajax({
     url: `https://itunes.apple.com/search?term=${Title}+movie&country=us&limit=10`,
