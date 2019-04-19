@@ -3,25 +3,19 @@ Project Title: Movie Searcher
 
 Team Members: Mary, Blue, Karina
 
-Project Description: Type in a movie and pull up a picture of the movie, a soundtrack from the movie and also a quote of the movie. 
+Project Description: Search for a movie title or for any word within a movie title and the search will return with a list of movies that match the search word. Each movie listed will also display the year the movie came out, a poster image of the movie, a video of the trailor and a description of the movie.
 
-APIs to be used: http://www.omdbapi.com/, https://rapidapi.com/juanroldan1989/api/moviequotes,
-https://developer.spotify.com/documentation/web-api/
-
+APIs to be used: http://www.omdbapi.com/, https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/
 
 Rough Breakdown of Tasks: 
 
-Each person is responsible for working with 1 api to add to the project. 
+One person is responsible for working with the omdbapi.
 
-Search a movie and a picture of the movie comes up (one person’s task)
+One person is responsible for working with the itunes api.
 
-Song from the movie pops up and displays below the movie’s picture (another person’s task)
+One person is responsible for front end html display.
 
-A quote from the movie displays below the song (another person’s task)
-
-Each person is responsible for their own box in the layout.
-
-Collaborate for the background/color/button style.
+We will collaborate to add new tech/library to add to the project.
 
 
 
