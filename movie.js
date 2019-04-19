@@ -8,6 +8,8 @@ $(function(){
 //display this when no movie title is found
 function displayFalse(){
   $("#failedSearch").show();
+  $("#searchTable").hide();
+
 }
 
 //function to use to pull from itunes API
