@@ -17,6 +17,8 @@ One person is responsible for front end html display.
 
 We will collaborate to add new tech/library to add to the project.
 
+Slides: https://show.zohopublic.com/publish/dwari83fb661d5cd24707986b1e78af0f9ca7
+
 
 
 
