@@ -18,6 +18,6 @@ One person is responsible for front end html display.
 We will collaborate to add new tech/library to add to the project.
 
 
-
+See the project here: https://marykwong.github.io/Project1/
 
 
